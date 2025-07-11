@@ -56,8 +56,8 @@ nav h1 {
 }
 
 /*----header style---*/
-.header {
-    background-image: url('/images/Hero-bg.png');
+header {
+    background-image: url('../images/Hero-bg.png');
 }
 
 /*----banner styles----*/
@@ -144,9 +144,6 @@ main {
 .feedback-container{
     display: flex;
     gap:20px;
-}
-.card-subtitle{
-
 }
 .card-review-img{
     height: 40px;
