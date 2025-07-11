@@ -56,7 +56,7 @@ nav h1 {
 }
 
 /*----header style---*/
-header {
+.header {
     background-image: url('/images/Hero-bg.png');
 }
 
