@@ -22,7 +22,9 @@ body {
 section {
     margin-top: 116px;
 }
-
+.text-center{
+    text-align: center;
+}
 .button {
     background-color: #4E47FF;
     color: white;
@@ -166,6 +168,31 @@ main {
 }
 .review-subtitle{
     color:#B3B3B3;
+}
+/*----focus-better styles---*/
+.focus-container{
+    padding:70px 170px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.focus-img{
+    border-radius: 48px;
+    width: 700px;
+    height: 320px;
+    margin-bottom: 40px;
+}
+.focus-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.focus-subtitle{
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.focus button{
+    margin-bottom: 20px;
 }
 
 
