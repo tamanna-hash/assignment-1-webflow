@@ -36,7 +36,9 @@ section {
 }
 
 .button:hover {
-    background-color: #2822eb;
+    background-image:linear-gradient(to left, black, blue, yellow, orange);;
+    /* background-color: linear-gradient(to right, #2ab3ff, #ff2d00); */
+    transition: all ease 0.5s;
     padding: 15px 40px;
     box-shadow: 10px 10px 10px  rgb(139, 135, 135);
 }
@@ -191,19 +193,6 @@ main {
 .focus button{
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---touch style---*/
 .touch{
     margin: 160px 0px;
