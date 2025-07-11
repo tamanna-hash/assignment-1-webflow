@@ -22,9 +22,11 @@ body {
 section {
     margin-top: 116px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 .button {
     background-color: #4E47FF;
     color: white;
@@ -36,11 +38,11 @@ section {
 }
 
 .button:hover {
-    background-image:linear-gradient(to left, black, blue, yellow, orange);
+    background-image: linear-gradient(to left, black, blue, yellow, orange);
     /* background-color: linear-gradient(to right, #2ab3ff, #ff2d00); */
     transition: all ease 0.5s;
     padding: 15px 40px;
-    box-shadow: 10px 10px 10px  rgb(139, 135, 135);
+    box-shadow: 10px 10px 10px rgb(139, 135, 135);
 }
 
 /*----nav style----*/
@@ -108,6 +110,7 @@ main {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
 }
+
 .user-contents {
     text-align: center;
     padding: 50px 140px;
@@ -125,94 +128,114 @@ main {
     color: #4E47FF;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom:-15px ;
+    margin-bottom: -15px;
 }
 
 .user-subtitle {
     color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
 }
+
 /*---feedback style*/
-.feedcard{
-    background-color:rgba(255, 255, 255, 0.5);
+.feedcard {
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 14px;
     padding: 14px;
 }
-.feed-title{
+
+.feed-title {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
-.feedback-container{
+
+.feedback-container {
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
-.card-review-img{
+
+.card-review-img {
     height: 40px;
     width: 40px;
-    border-radius:50%;
+    border-radius: 50%;
 }
-.card-review{
+
+.card-review {
     display: flex;
     gap: 5px;
     align-items: center;
 }
-.review-content{
+
+.review-content {
     display: block;
 }
-.review-title{
-    color:#757575;
+
+.review-title {
+    color: #757575;
     font-weight: bold;
-    margin-bottom:-5px;
+    margin-bottom: -5px;
 }
-.review-subtitle{
-    color:#B3B3B3;
+
+.review-subtitle {
+    color: #B3B3B3;
 }
+
 /*----focus-better styles---*/
-.focus-container{
-    padding:70px 170px;
+.focus-container {
+    padding: 70px 170px;
     background-color: white;
     display: flex;
     justify-content: center;
 }
-.focus-img{
+
+.focus-img {
     border-radius: 48px;
     width: 700px;
     height: 320px;
     margin-bottom: 40px;
 }
-.focus-title{
+
+.focus-title {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.focus-subtitle{
-    color:rgba(0, 0, 0, 0.5);
+
+.focus-subtitle {
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
-.focus button{
+
+.focus button {
     margin-bottom: 20px;
 }
+
 /*---touch style---*/
-.touch{
+.touch {
     margin: 160px 0px;
 }
-.touch-contents{
+
+.touch-contents {
     display: flex;
     justify-content: space-between;
     gap: 124px;
 }
-.touch-content{
+
+.touch-content {
     font-size: 70px;
     font-weight: bold;
     align-content: center;
 
 }
-form{
-    padding:71px 0px;
+
+form {
+    padding: 71px 0px;
     width: 100%;
 }
- form input[type="text"],input[type="email"],textarea{
+
+form input[type="text"],
+input[type="email"],
+textarea {
     padding: 20px 250px 20px 32px;
     display: block;
     border: none;
@@ -223,10 +246,12 @@ form{
     margin-bottom: 19px;
     width: 150px;
 }
-form textarea{
+
+form textarea {
     padding: 20px 250px 50px 32px;
 }
-.form-button{
+
+.form-button {
     padding: 20px 300px 20px 32px;
     border-radius: 10px;
     margin-top: 10px;
@@ -235,17 +260,22 @@ form textarea{
     border: none;
     font-size: 16px;
 }
-.form-button:hover{
-     padding: 20px 300px 20px 40px;
-    box-shadow: 10px 10px 10px rgb(139, 135, 135);
+
+.form-button:hover {
+    padding: 20px 300px 20px 40px;
+    background-image: linear-gradient(to left, black, blue, yellow, orange);
+    transition: all ease 0.5s;
     background-color: #443eec;
+    color:rgb(42, 41, 41)
 }
-form label{
+
+form label {
     font-size: 18px;
 }
+
 /*footer styles*/
-footer{
-    background-color:white;
+footer {
+    background-color: white;
     height: 380px;
     text-align: center;
     display: flex;
@@ -253,19 +283,21 @@ footer{
     align-items: center;
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    color:#8987A1;
+    color: #8987A1;
     padding-right: 48px;
 
 }
-.footer-title{
+
+.footer-title {
     font-size: 100px;
-    color:#4E47FF;
+    color: #4E47FF;
     margin-bottom: 8px;
     font-weight: 800;
 }
-.footer-subtitle{
-    color:#8987A1;
-    margin:0 330px 20px 340px;
+
+.footer-subtitle {
+    color: #8987A1;
+    margin: 0 330px 20px 340px;
 }
