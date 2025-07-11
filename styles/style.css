@@ -36,7 +36,7 @@ section {
 }
 
 .button:hover {
-    background-image:linear-gradient(to left, black, blue, yellow, orange);;
+    background-image:linear-gradient(to left, black, blue, yellow, orange);
     /* background-color: linear-gradient(to right, #2ab3ff, #ff2d00); */
     transition: all ease 0.5s;
     padding: 15px 40px;
