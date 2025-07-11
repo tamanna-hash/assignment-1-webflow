@@ -34,9 +34,9 @@ section {
 }
 
 .button:hover {
-    background-color: #6a65f2;
+    background-color: #2822eb;
     padding: 15px 40px;
-    box-shadow: 10px 10px 10px #6562bb;
+    box-shadow: 10px 10px 10px  rgb(139, 135, 135);
 }
 
 /*----nav style----*/
@@ -121,8 +121,57 @@ main {
     color: #4E47FF;
     font-size: 40px;
     font-weight: bold;
+    margin-bottom:-15px ;
 }
 
 .user-subtitle {
     color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+/*---touch style---*/
+.touch{
+    margin: 160px 0px;
+}
+.touch-contents{
+    display: flex;
+    justify-content: space-between;
+    gap: 124px;
+}
+.touch-content{
+    font-size: 70px;
+    font-weight: bold;
+    align-content: center;
+
+}
+form{
+    padding:71px 0px;
+    width: 100%;
+}
+ form input[type="text"],input[type="email"],textarea{
+    padding: 20px 250px 20px 32px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 19px;
+    margin-bottom: 19px;
+    width: 150px;
+}
+.form-button{
+    padding: 20px 300px 20px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    font-size: 16px;
+}
+.form-button:hover{
+     padding: 20px 300px 20px 40px;
+    box-shadow: 10px 10px 10px rgb(139, 135, 135);
+    background-color: #443eec;
+}
+form label{
+    font-size: 18px;
 }
