@@ -28,7 +28,7 @@ section {
 }
 
 .button {
-    background-color: #4E47FF;
+    background-color: #5A8DEE;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -38,11 +38,10 @@ section {
 }
 
 .button:hover {
-    background-image: linear-gradient(to left, black, blue, yellow, orange);
+    background-color: #719df0;
     /* background-color: linear-gradient(to right, #2ab3ff, #ff2d00); */
     transition: all ease 0.5s;
     padding: 15px 40px;
-    box-shadow: 10px 10px 10px rgb(139, 135, 135);
 }
 
 /*----nav style----*/
@@ -256,17 +255,16 @@ form textarea {
     border-radius: 10px;
     margin-top: 10px;
     color: white;
-    background-color: #4E47FF;
+    background-color: #5A8DEE;
     border: none;
     font-size: 16px;
 }
 
 .form-button:hover {
     padding: 20px 300px 20px 40px;
-    background-image: linear-gradient(to left, black, blue, yellow, orange);
     transition: all ease 0.5s;
-    background-color: #443eec;
-    color:rgb(42, 41, 41)
+    background-color: #719df0;
+    color:white;
 }
 
 form label {
